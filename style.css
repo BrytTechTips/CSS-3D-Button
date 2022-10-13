@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.button{
+    border: none;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: gold;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.top{
+    display: block;
+    padding: 15px 45px;
+    font-size: 2rem;
+    background: purple;
+    color: white;
+    transform: translateY(-8px);
+    border-radius: 15px;
+
+}
+.button:active .top{
+    transform: translateY(-2px);
+}
